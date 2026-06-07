@@ -1,20 +1,64 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+<h1 align="center">SmartHireAI</h1>
 
-# Run and deploy your AI Studio app
+<p align="center">
+  <b>An AI-powered mock interview platform </b><br/>
+  Simulates recruiter-like interviews, delivers real-time insights, and empowers job seekers with personalized feedback.
+</p>
 
-This contains everything you need to run your app locally.
+<p align="center">
+  <img src="https://img.shields.io/badge/Built%20With-Next.js%20%7C%20TypeScript%20%7C%20Groq%20%7C%20Firebase-informational" />
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen" />
+</p>
 
-View your app in AI Studio: https://ai.studio/apps/784f2a0b-270c-4ea1-a44c-a08a47753f9b
+---
 
-## Run Locally
+## 🔍 Overview
 
-**Prerequisites:**  Node.js
+SmartHireAI is a full-stack, AI-driven platform that mimics real interviews using ultra-fast AI models. Designed to aid in mock preparation for both technical and behavioral rounds, it provides instant feedback, personalized analytics, and voice-powered interactions — all in a beautifully intuitive interface.
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+## ✨ Key Features
+
+- **🎯 Custom Interview Modes**  
+  Web Dev, DSA, System Design, and Behavioral
+
+- **🎤 Interactive Sessions**  
+  Video-enabled mock interviews with voice agents for realism
+
+- **⚡ Instant Question Generation**  
+  Mode-specific questions from Groq’s ultra-low-latency LLMs
+
+- **📊 Real-Time Feedback**  
+  Instant analysis and AI-generated suggestions to improve
+
+- **🧠 Personalized Insights**  
+  Tracks strengths, weaknesses, and progress over time
+
+---
+
+## 🛠️ Tech Stack
+
+| Frontend         | Backend/Infra         | AI & Tools           |
+|------------------|------------------------|----------------------|
+| Next.js          | Firebase Auth + DB     | Groq LLM APIs        |
+| TypeScript       | Firestore              | Vapi (voice agent)   |
+| Tailwind CSS     | Firebase Hosting       | Aceternity UI        |
+
+---
+
+## 🚀 Getting Started
+
+Clone and run locally:
+
+```bash
+git clone htthttps://github.com/Aasritha-sure/SmartHire-AI-Interview.git
+cd SmartHireAI
+npm install
+npm run dev
+```
+
+##  🚀  Live Link
+ 
+vercel link: https://smarthire-ai-interview.vercel.app/
